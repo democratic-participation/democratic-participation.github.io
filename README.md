@@ -1,8 +1,4 @@
-# A German works council for DL
-
-This site serves to inform you about the current efforts to found a works council in DL/Germany.
-
-## Where are we?
+# Where are we?
 Past:
 - April 2024: Unsuccessful attempt to found a works council
 - People fear to expose themselves
