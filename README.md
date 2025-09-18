@@ -1,4 +1,4 @@
-# Where are we?
+## Where are we?
 Past:
 - April 2024: Unsuccessful attempt to found a works council
 - People fear to expose themselves
