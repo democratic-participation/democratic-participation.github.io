@@ -1,6 +1,6 @@
 # A German works council for DL
 
-- There are efforts to found a works council in DL/Germany
+This site serves to inform you about the current efforts to found a works council in DL/Germany.
 
 ## Where are we?
 Past:
