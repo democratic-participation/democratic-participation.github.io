@@ -1,3 +1,5 @@
+# A German works council for DL
+
 ## Where are we?
 Past:
 - April 2024: Unsuccessful attempt to found a works council
