@@ -7,13 +7,13 @@ title: FAQ - Works Council Election
 
 ## Election Process
 
-**Q: What happens at the works meeting on April 9?**
+**Q: What happens at the works meeting?**
 A: The purpose is to elect an election committee, not to vote on whether there will be a works council. If at least 3 employees stand for election and receive votes, an election committee is formed.
 
 **Q: Can we prevent a works council from being established?**
 A: If the majority present don't elect an election committee, it may delay the process. However, three employees or a union can still request a labor court to appoint an election committee.
 
-**Q: Is the <INSERT DATE HERE> vote a decision for/against a works council?**
+**Q: Is the vote a decision for/against a works council?**
 A: No, it's only to elect an election committee. The committee is then legally obliged to organize works council elections.
 
 ## Participation & Eligibility

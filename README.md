@@ -2,7 +2,7 @@
 
 This site provides information about ongoing efforts to establish a works council for employees in Germany. Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
 
-Currently, **ten employees** are in dialogue with the **IG Metall Berlin** union, as there are clear indications that there is interest in setting up a works council in Germany.
+Currently, a group of **ten employees** are in dialogue with the **IG Metall Berlin** union, as there are clear indications that there is interest in setting up a works council in Germany.
 
 
 ## Understanding Works Councils
