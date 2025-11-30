@@ -7,7 +7,7 @@ title: Works Meeting - Election Committee
 
 ## Meeting Information
 
-**Date:** April 9, 2024  
+**Date:** To be announced.
 **Purpose:** Election of an election committee to prepare works council elections
 
 ## Important: What This Meeting Is About
@@ -35,12 +35,12 @@ This is a formal legal process with no room for interpretation.
 ## Who Can Participate?
 
 **Eligible to vote:**
-- All employees of the company
+- All employees of the German entity
 - **Excluding:** employers and senior executives ("leitende Angestellte")
 - **Must be present** at the meeting (no remote voting)
 
 **Eligible to stand for election committee:**
-- All employees entitled to vote
+- All employees of the German entity entitled to vote
 - Who have been employed by the company for **6+ months**
 - And are at least **18 years old**
 
@@ -56,7 +56,7 @@ The elected election committee will:
 
 ### Timeline
 - **One week minimum** notice period required by law
-- **Two weeks** were provided to give employees more time
+- We aim to provide employees with at least **three weeks** time for travel arrangements
 - The meeting focuses only on electing the election committee
 - Further information about works council elections will be provided by the elected committee
 
@@ -76,8 +76,7 @@ There will be **no fundamental discussion** about whether to have a works counci
 
 ## Background
 
-This initiative was started by **three employee volunteers** who:
-- Are not members of the existing SE Works Council
+This initiative was started by **a group of ten employees** who:
 - Act independently without management involvement
 - Provide this information voluntarily in their spare time
 - Are conducting this process for the first time
