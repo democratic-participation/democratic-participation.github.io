@@ -1,5 +1,5 @@
-title: A German works council for DL
-description: This site serves to inform you about the current efforts to found a works council in DL/Germany.
+title: A German works council
+description: This site serves to inform you about the current efforts to found a works council in Germany.
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
