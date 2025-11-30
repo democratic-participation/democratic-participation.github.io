@@ -5,13 +5,7 @@ title: Works Meeting - Election Committee
 
 # Works Meeting: Election of an Election Committee
 
-<div class="info-box warning">
-
-## Important: What This Meeting Is About
-
-This meeting is **NOT** a vote on whether there will be a works council. Instead, it is a formal process to elect an election committee that will then organize the actual works council elections.
-
-</div>
+> **Important:** This meeting is **NOT** a vote on whether there will be a works council. Instead, it is a formal process to elect an election committee that will then organize the actual works council elections.
 
 ## Meeting Information
 
@@ -24,8 +18,6 @@ This meeting is **NOT** a vote on whether there will be a works council. Instead
 2. **Election** of a chairman of the meeting and a keeper of the minutes  
 3. **Election** of an election committee
 
-<div class="section-highlight process-steps">
-
 ## Legal Framework
 
 The invitation to this works meeting sets the works council election process in motion according to **§17 BetrVG** (Works Constitution Act).
@@ -37,8 +29,6 @@ The invitation to this works meeting sets the works council election process in 
 - Then the election committee is **automatically formed**
 
 This is a formal legal process with no room for interpretation.
-
-</div>
 
 ## Who Can Participate?
 

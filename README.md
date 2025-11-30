@@ -1,18 +1,8 @@
-# A German Works Council
-
 This site provides information about ongoing efforts to establish a works council for employees in Germany. Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
 
-<div class="section-highlight current-status">
+> **Current Status:** A group of ten employees are in dialogue with the IG Metall Berlin union, as there are clear indications that there is interest in setting up a works council in Germany.
 
-**Current Status:** A group of **ten employees** are in dialogue with the **IG Metall Berlin** union, as there are clear indications that there is interest in setting up a works council in Germany.
-
-</div>
-
-<div class="ig-banner">
-<a href="https://www.igmetall-berlin.de/english-info/membership">
-<img src="assets/images/ig-metall-banner.svg" alt="IG Metall Berlin Support">
-</a>
-</div>
+[![IG Metall Berlin Support](assets/images/ig-metall-banner.svg)](https://www.igmetall-berlin.de/english-info/membership)
 
 ## What is a Works Council?
 
@@ -24,21 +14,13 @@ A German works council provides employees with:
 
 This is different from the existing SE (European) Works Council, which focuses on international matters.
 
-<div class="page-navigation">
+## Information Pages
 
-<a href="works-meeting.html" class="nav-card">
-<h3>Works Meeting Information</h3>
-<p>Learn about the election committee process, meeting agenda, and legal framework for establishing a works council.</p>
-</a>
+### [Works Meeting Information](works-meeting.md)
+Learn about the election committee process, meeting agenda, and legal framework for establishing a works council.
 
-<a href="faq.html" class="nav-card">
-<h3>Frequently Asked Questions</h3>
-<p>Find answers to common questions about eligibility, process, timeline, and what happens after formation.</p>
-</a>
-
-</div>
-
-<div class="section-highlight process-steps">
+### [Frequently Asked Questions](faq.md)
+Find answers to common questions about eligibility, process, timeline, and what happens after formation.
 
 ## Legal Framework
 
@@ -46,13 +28,10 @@ Works councils in Germany are governed by the **Works Constitution Act** (Betrie
 
 ### Process Overview
 
-The establishment process follows these steps:
 1. **Employee Initiative** - Three or more employees can call for a works meeting
 2. **Election Committee** - Elected to organize the formal works council election
 3. **Works Council Election** - Formal election of council members
 4. **Council Formation** - Newly elected council begins representing employees
-
-</div>
 
 ---
 

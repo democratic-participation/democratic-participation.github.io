@@ -1,128 +1,83 @@
 ---
 ---
 
-@import "minima";
+@import "{{ site.theme }}";
 
-// IG Metall professional styling
-.site-header {
-  background-color: #e3000f;
-  border-bottom: none;
-  
-  .site-title, .site-nav .page-link {
-    color: white !important;
-    text-decoration: none;
-    
-    &:hover {
-      color: rgba(255,255,255,0.8) !important;
-    }
-  }
+/* IG Metall branding for Cayman theme */
+.page-header {
+  background: linear-gradient(120deg, #882A30, #e3000f);
 }
 
-// IG Metall red for headings
-h1, h2, h3, h4, h5, h6 {
-  color: #e3000f !important;
-}
-
-// Links
-a {
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
   color: #e3000f;
-  
-  &:hover {
-    color: #b30000;
-  }
 }
 
-// Navigation cards
-.page-navigation {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 3rem 0;
+.main-content a {
+  color: #e3000f;
 }
 
-.nav-card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 2rem;
+.main-content a:hover {
   text-decoration: none;
-  color: #333;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(227,0,15,0.2);
-    border-color: #e3000f;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  h3 {
-    margin-top: 0;
-    color: #e3000f !important;
-    font-size: 1.4rem;
-  }
-  
-  p {
-    margin-bottom: 0;
-    color: #666;
-  }
+  color: #b30000;
 }
 
-// Info boxes
-.info-box {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-left: 4px solid #e3000f;
-  padding: 1.5rem;
-  margin: 2rem 0;
+/* Style blockquotes as info boxes */
+.main-content blockquote {
+  background: #fff8e1;
+  border-left: 4px solid #ffc107;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
   border-radius: 4px;
-  
-  &.warning {
-    border-left-color: #ffc107;
-    background: #fff8e1;
-  }
 }
 
-.section-highlight {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  padding: 2rem;
-  margin: 2rem 0;
-  border-radius: 8px;
-  
-  &.current-status {
-    border-left: 4px solid #28a745;
-  }
-  
-  &.process-steps {
-    border-left: 4px solid #17a2b8;
-  }
+/* Center images (like the IG Metall banner) */
+.main-content p img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-// IG Metall banner styling
-.ig-banner {
-  text-align: center;
-  margin: 2rem 0;
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
+/* Improve spacing for better readability */
+.main-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-// Mobile responsiveness
+.main-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Style navigation section */
+.main-content h2 + h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.main-content h3 + p {
+  margin-top: 0.3rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Mobile improvements */
 @media (max-width: 768px) {
-  .page-navigation {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin: 2rem 0;
+  .main-content blockquote {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    border-radius: 0;
   }
   
-  .nav-card, .info-box, .section-highlight {
+  .main-content p img {
     margin-left: -1rem;
     margin-right: -1rem;
     border-radius: 0;

@@ -5,8 +5,6 @@ title: FAQ - Works Council Election
 
 # Frequently Asked Questions
 
-<div class="section-highlight process-steps">
-
 ## Election Process
 
 **Q: What happens at the works meeting?**  
@@ -17,8 +15,6 @@ title: FAQ - Works Council Election
 
 **Q: Is the vote a decision for/against a works council?**  
 **A:** No, it's only to elect an election committee. The committee is then legally obliged to organize works council elections.
-
-</div>
 
 ## Participation & Eligibility
 
