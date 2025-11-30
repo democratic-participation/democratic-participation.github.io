@@ -1,19 +1,9 @@
-# A German Works Council for DL
+# A German Works Council
 
-## Welcome
+This site provides information about ongoing efforts to establish a works council for employees in Germany. Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
 
-This site provides information about ongoing efforts to establish a works council for DL employees in Germany. A works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection under German law.
+Currently, **ten employees** are in dialogue with the **IG Metall Berlin** union, as there are clear indications that there is interest in setting up a works council in Germany.
 
-## Current Status
-
-**Past:**
-- April 2024: Unsuccessful attempt to found a works council
-- Employees expressed concerns about exposure
-
-**Current Status:**
-- Clear signals that there is interest in establishing a works council
-- A group of **ten employees** are in dialogue with union **IG Metall**
-- Planning for future organizational steps
 
 ## Understanding Works Councils
 
