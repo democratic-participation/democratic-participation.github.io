@@ -14,10 +14,76 @@ $ig-gray: #646464;         // Gray (RGB: 100, 100, 100)
 $ig-light-gray: #DADADA;   // Light Gray (RGB: 218, 218, 218)
 
 // Additional colors for better design
-$text-dark: #2c3e50;
+$text-dark: #333333;       // IG Metall body text color
 $text-light: #666;
 $bg-light: #f8f9fa;
 $border-light: #e9ecef;
+
+// IG Metall Official Typography
+// Self-hosted Fira Sans fonts as FF Meta alternatives
+
+// Font face declarations for self-hosted fonts
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url('../fonts/FiraSansCondensed-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url('../fonts/FiraSansCondensed-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url('../fonts/FiraSansCondensed-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Font stack following IG Metall guidelines with self-hosted Fira Sans as FF Meta alternative
+$font-meta-headline: 'Fira Sans Condensed', 'FF Meta HeadLine Cond', 'Calibri', 'Arial Narrow', 'Arial', sans-serif;
+$font-meta-regular: 'Fira Sans', 'FF Meta', 'Calibri', 'Arial', sans-serif;
+$font-fallback: 'Fira Sans', 'Calibri', 'Arial', sans-serif;
+
+// IG Metall Typography Settings
+body {
+  font-family: $font-meta-regular;
+  font-size: 16px;
+  line-height: 28px;
+  color: $text-dark;
+  font-weight: 400;
+}
 
 // Override the header gradient with IG Metall colors
 .page-header {
@@ -25,23 +91,62 @@ $border-light: #e9ecef;
   background-attachment: fixed;
 }
 
-// Update main headings to use IG Metall red
+// Update main headings to use IG Metall fonts and specifications
 h1, h2, h3, h4, h5, h6 {
+  font-family: $font-meta-headline;
   color: $ig-red !important;
-  font-weight: 600;
 }
 
-// Style the main title differently
+h1 {
+  font-size: 70px;
+  line-height: 66px;
+  font-weight: 900; // Meta Head IGM Cond Black equivalent
+  color: #000000 !important;
+  
+  @media (max-width: 768px) {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400; // Meta Head IGM Cond Light equivalent
+  color: #000000 !important;
+  
+  @media (max-width: 768px) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 900; // Meta Head IGM Cond Black equivalent
+  color: $ig-red !important;
+}
+
+h4, h5, h6 {
+  font-family: $font-meta-regular;
+  font-weight: 700; // Meta IGM Bold equivalent
+  color: $ig-red !important;
+}
+
+// Style the main title differently with IG Metall typography
 .project-name {
+  font-family: $font-meta-headline;
+  font-weight: 900; // Meta Head IGM Cond Black
   color: white !important;
-  font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   margin-bottom: 0.5rem;
 }
 
 .project-tagline {
+  font-family: $font-meta-regular;
+  font-weight: 400; // Meta IGM Regular
   color: rgba(255, 255, 255, 0.95) !important;
-  font-weight: 400;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   margin-bottom: 2rem;
 }
@@ -105,14 +210,15 @@ a {
   }
 }
 
-// Style buttons with IG Metall branding
+// Style buttons with IG Metall branding and typography
 .btn {
+  font-family: $font-meta-regular;
+  font-weight: 700; // Meta IGM Bold equivalent
   background: linear-gradient(145deg, $ig-red, $ig-deep-red);
   color: white;
   border: none;
   padding: 12px 24px;
   border-radius: 6px;
-  font-weight: 600;
   text-decoration: none;
   display: inline-block;
   transition: all 0.3s ease;
@@ -178,18 +284,21 @@ blockquote {
   border-radius: 0 6px 6px 0;
 }
 
-// Improve list styling
+// Improve list styling with IG Metall typography
 ul, ol {
   margin: 1rem 0;
   padding-left: 1.5rem;
+  font-family: $font-meta-regular;
   
   li {
     margin: 0.5rem 0;
-    line-height: 1.6;
+    line-height: 1.75; // Better readability for body text
+    font-size: 16px;
     
     strong {
       color: $ig-red;
-      font-weight: 600;
+      font-weight: 700; // Meta IGM Bold equivalent
+      font-family: $font-meta-regular;
     }
   }
 }
