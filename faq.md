@@ -13,13 +13,17 @@ A: The purpose is to elect an election committee, not to vote on whether there w
 **Q: Can we prevent a works council from being established?**
 A: If the majority present don't elect an election committee, it may delay the process. However, three employees or a union can still request a labor court to appoint an election committee.
 
-**Q: Is the April 9 vote a decision for/against a works council?**
+**Q: Is the <INSERT DATE HERE> vote a decision for/against a works council?**
 A: No, it's only to elect an election committee. The committee is then legally obliged to organize works council elections.
 
 ## Participation & Eligibility
 
 **Q: Who can participate in the election committee vote?**
-A: All employees except employers and senior executives ("leitende Angestellte").
+A: All employees of the German entity are eligible to vote, except employers and senior executives ("leitende
+Angestellte").
+
+Employees of other group entities outside Germany are not eligible to participate, as this election pertains exclusively
+to the German works council under German labor law.
 
 **Q: Who can stand for works council election?**
 A: Employees who have worked for the company for at least 6 months and are at least 18 years old.
