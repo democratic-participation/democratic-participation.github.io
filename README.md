@@ -4,8 +4,6 @@
 
 This site provides information about ongoing efforts to establish a works council for DL employees in Germany. A works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection under German law.
 
-<div class="section-highlight current-status">
-
 ## Current Status
 
 **Past:**
@@ -17,10 +15,6 @@ This site provides information about ongoing efforts to establish a works counci
 - A group of **ten employees** are in dialogue with union **IG Metall**
 - Planning for future organizational steps
 
-</div>
-
-<div class="info-box">
-
 ## Understanding Works Councils
 
 A German works council provides employees with:
@@ -30,8 +24,6 @@ A German works council provides employees with:
 - **Mediation** between management and employees
 
 This is different from the existing SE (European) Works Council, which focuses on international matters.
-
-</div>
 
 ## Information Pages
 
@@ -43,8 +35,6 @@ This is different from the existing SE (European) Works Council, which focuses o
 
 Works councils in Germany are governed by the **Works Constitution Act** (Betriebsverfassungsgesetz - BetrVG). The establishment process is strictly regulated and follows formal legal procedures.
 
-<div class="section-highlight process-steps">
-
 ## Next Steps
 
 The process of establishing a works council requires:
@@ -52,8 +42,6 @@ The process of establishing a works council requires:
 2. **Election Committee** - Elected to organize the formal works council election
 3. **Works Council Election** - Formal election of council members
 4. **Council Formation** - Newly elected council begins representing employees
-
-</div>
 
 ---
 

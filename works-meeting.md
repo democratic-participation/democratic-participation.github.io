@@ -10,13 +10,9 @@ title: Works Meeting - Election Committee
 **Date:** April 9, 2024  
 **Purpose:** Election of an election committee to prepare works council elections
 
-<div class="info-box warning">
-
 ## Important: What This Meeting Is About
 
 This meeting is **NOT** a vote on whether there will be a works council. Instead, it is a formal process to elect an election committee that will then organize the actual works council elections.
-
-</div>
 
 ### Meeting Agenda
 
@@ -28,8 +24,6 @@ This meeting is **NOT** a vote on whether there will be a works council. Instead
 
 The invitation to this works meeting sets the works council election process in motion according to **§17 BetrVG** (Works Constitution Act).
 
-<div class="info-box success">
-
 ### How the Election Committee is Formed
 
 - If at least **3 employees** stand for election
@@ -37,8 +31,6 @@ The invitation to this works meeting sets the works council election process in 
 - Then the election committee is **automatically formed**
 
 This is a formal legal process with no room for interpretation.
-
-</div>
 
 ## Who Can Participate?
 
