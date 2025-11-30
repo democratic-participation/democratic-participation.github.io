@@ -1,5 +1,21 @@
-title: A German works council
+title: A German Works Council
 description: This site serves to inform you about the current efforts to found a works council in Germany.
-remote_theme: pages-themes/cayman@v0.2.0
+theme: minima
 plugins:
-- jekyll-remote-theme
+- jekyll-feed
+
+# IG Metall Branding
+ig_metall:
+  primary_color: "#e3000f"
+  secondary_color: "#333333"
+  light_gray: "#f5f5f5"
+  border_color: "#e0e0e0"
+
+# Navigation
+header_pages:
+  - works-meeting.md
+  - faq.md
+
+# SEO
+lang: en
+author: Works Council Initiative
