@@ -1,22 +1,20 @@
 # A German Works Council
 
+This site provides information about ongoing efforts to establish a works council for employees in Germany. Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
+
 <div class="section-highlight current-status">
 
 **Current Status:** A group of **ten employees** are in dialogue with the **IG Metall Berlin** union, as there are clear indications that there is interest in setting up a works council in Germany.
 
-<div style="text-align: center; margin: 2rem 0;">
+</div>
+
+<div class="ig-banner">
 <a href="https://www.igmetall-berlin.de/english-info/membership">
-<img src="assets/images/ig-metall-banner.svg" alt="IG Metall Berlin Support" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+<img src="assets/images/ig-metall-banner.svg" alt="IG Metall Berlin Support">
 </a>
 </div>
 
-</div>
-
-This site provides information about ongoing efforts to establish a works council for employees in Germany. Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
-
-<div class="info-box">
-
-### What is a Works Council?
+## What is a Works Council?
 
 A German works council provides employees with:
 - **Representation** in workplace decisions
@@ -25,8 +23,6 @@ A German works council provides employees with:
 - **Mediation** between management and employees
 
 This is different from the existing SE (European) Works Council, which focuses on international matters.
-
-</div>
 
 <div class="page-navigation">
 

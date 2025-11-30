@@ -13,24 +13,16 @@ This meeting is **NOT** a vote on whether there will be a works council. Instead
 
 </div>
 
-<div class="section-highlight current-status">
-
 ## Meeting Information
 
 **Date:** To be announced.  
 **Purpose:** Election of an election committee to prepare works council elections
-
-</div>
-
-<div class="info-box">
 
 ### Meeting Agenda
 
 1. **Information** on the purpose and procedure of the meeting
 2. **Election** of a chairman of the meeting and a keeper of the minutes  
 3. **Election** of an election committee
-
-</div>
 
 <div class="section-highlight process-steps">
 

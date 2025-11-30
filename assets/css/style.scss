@@ -1,502 +1,130 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minima";
 
-// IG Metall Official Brand Colors
-$ig-red: #E3051B;           // Primary Red (RGB: 227, 5, 27)
-$ig-deep-red: #882A30;     // Deep Red (RGB: 136, 42, 48)
-$ig-yellow: #EAB500;       // Yellow (RGB: 234, 181, 0)
-$ig-anthracite: #3C3C3C;   // Anthracite (RGB: 60, 60, 60)
-$ig-blue: #2F80AB;         // Blue (RGB: 47, 128, 171)
-$ig-green: #5B9945;        // Green (RGB: 91, 153, 69)
-$ig-gray: #646464;         // Gray (RGB: 100, 100, 100)
-$ig-light-gray: #DADADA;   // Light Gray (RGB: 218, 218, 218)
+// IG Metall professional styling
+.site-header {
+  background-color: #e3000f;
+  border-bottom: none;
+  
+  .site-title, .site-nav .page-link {
+    color: white !important;
+    text-decoration: none;
+    
+    &:hover {
+      color: rgba(255,255,255,0.8) !important;
+    }
+  }
+}
 
-// Additional colors for better design
-$text-dark: #333333;       // IG Metall body text color
-$text-light: #666;
-$bg-light: #f8f9fa;
-$border-light: #e9ecef;
+// IG Metall red for headings
+h1, h2, h3, h4, h5, h6 {
+  color: #e3000f !important;
+}
 
-// Enhanced Professional Design
-// Navigation cards for better UX
+// Links
+a {
+  color: #e3000f;
+  
+  &:hover {
+    color: #b30000;
+  }
+}
+
+// Navigation cards
 .page-navigation {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   margin: 3rem 0;
 }
 
 .nav-card {
   background: white;
-  border: 2px solid $border-light;
-  border-radius: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 2rem;
   text-decoration: none;
-  color: $text-dark;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, $ig-red, $ig-yellow);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-  }
   
   &:hover {
-    border-color: $ig-red;
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(227, 5, 27, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(227,0,15,0.2);
+    border-color: #e3000f;
     text-decoration: none;
-    color: $text-dark;
-    
-    &::before {
-      transform: scaleX(1);
-    }
-    
-    h3 {
-      color: $ig-red !important;
-    }
+    color: #333;
   }
   
   h3 {
     margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 24px;
-    color: $ig-deep-red !important;
-    transition: color 0.3s ease;
+    color: #e3000f !important;
+    font-size: 1.4rem;
   }
   
   p {
-    margin: 0;
-    line-height: 1.6;
-    color: $text-light;
+    margin-bottom: 0;
+    color: #666;
   }
 }
 
-// IG Metall Official Typography
-// Self-hosted Fira Sans fonts as FF Meta alternatives
-
-// Font face declarations for self-hosted fonts
-@font-face {
-  font-family: 'Fira Sans';
-  src: url('../fonts/FiraSans-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fira Sans';
-  src: url('../fonts/FiraSans-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fira Sans';
-  src: url('../fonts/FiraSans-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fira Sans Condensed';
-  src: url('../fonts/FiraSansCondensed-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fira Sans Condensed';
-  src: url('../fonts/FiraSansCondensed-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fira Sans Condensed';
-  src: url('../fonts/FiraSansCondensed-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-// Font stack following IG Metall guidelines with self-hosted Fira Sans as FF Meta alternative
-$font-meta-headline: 'Fira Sans Condensed', 'FF Meta HeadLine Cond', 'Calibri', 'Arial Narrow', 'Arial', sans-serif;
-$font-meta-regular: 'Fira Sans', 'FF Meta', 'Calibri', 'Arial', sans-serif;
-$font-fallback: 'Fira Sans', 'Calibri', 'Arial', sans-serif;
-
-// IG Metall Typography Settings
-body {
-  font-family: $font-meta-regular;
-  font-size: 16px;
-  line-height: 28px;
-  color: $text-dark;
-  font-weight: 400;
-}
-
-// Override the header gradient with IG Metall colors
-.page-header {
-  background: linear-gradient(120deg, $ig-deep-red, $ig-red, $ig-yellow);
-  background-attachment: fixed;
-}
-
-// Update main headings to use IG Metall fonts and specifications
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-meta-headline;
-  color: $ig-red !important;
-}
-
-h1 {
-  font-size: 70px;
-  line-height: 66px;
-  font-weight: 900; // Meta Head IGM Cond Black equivalent
-  color: #000000 !important;
-  
-  @media (max-width: 768px) {
-    font-size: 36px;
-    line-height: 40px;
-  }
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 400; // Meta Head IGM Cond Light equivalent
-  color: #000000 !important;
-  
-  @media (max-width: 768px) {
-    font-size: 28px;
-    line-height: 32px;
-  }
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 900; // Meta Head IGM Cond Black equivalent
-  color: $ig-red !important;
-}
-
-h4, h5, h6 {
-  font-family: $font-meta-regular;
-  font-weight: 700; // Meta IGM Bold equivalent
-  color: $ig-red !important;
-}
-
-// Style the main title differently with IG Metall typography
-.project-name {
-  font-family: $font-meta-headline;
-  font-weight: 900; // Meta Head IGM Cond Black
-  color: white !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  margin-bottom: 0.5rem;
-}
-
-.project-tagline {
-  font-family: $font-meta-regular;
-  font-weight: 400; // Meta IGM Regular
-  color: rgba(255, 255, 255, 0.95) !important;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  margin-bottom: 2rem;
-}
-
-// Update link colors
-a {
-  color: $ig-red;
-  text-decoration: none;
-  
-  &:hover {
-    color: $ig-deep-red;
-    text-decoration: underline;
-  }
-}
-
-// Style navigation links in content
-.main-content {
-  h2 {
-    border-bottom: 2px solid $ig-light-gray;
-    padding-bottom: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  h3 {
-    color: $ig-deep-red !important;
-    margin-top: 1.5rem;
-  }
-}
-
-// Create info boxes with IG Metall styling
+// Info boxes
 .info-box {
-  background: linear-gradient(145deg, $bg-light, white);
-  border-left: 4px solid $ig-red;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-left: 4px solid #e3000f;
   padding: 1.5rem;
-  margin: 1.5rem 0;
-  border-radius: 0 8px 8px 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  
-  h3, h4 {
-    color: $ig-red !important;
-    margin-top: 0;
-  }
+  margin: 2rem 0;
+  border-radius: 4px;
   
   &.warning {
-    border-left-color: $ig-yellow;
-    background: linear-gradient(145deg, #fff8e1, white);
-    
-    h3, h4 {
-      color: darken($ig-yellow, 20%) !important;
-    }
-  }
-  
-  &.success {
-    border-left-color: $ig-green;
-    background: linear-gradient(145deg, #f1f8e9, white);
-    
-    h3, h4 {
-      color: $ig-green !important;
-    }
+    border-left-color: #ffc107;
+    background: #fff8e1;
   }
 }
 
-// Style buttons with IG Metall branding and typography
-.btn {
-  font-family: $font-meta-regular;
-  font-weight: 700; // Meta IGM Bold equivalent
-  background: linear-gradient(145deg, $ig-red, $ig-deep-red);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    background: linear-gradient(145deg, $ig-deep-red, darken($ig-deep-red, 10%));
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(227, 5, 27, 0.3);
-    color: white;
-    text-decoration: none;
-  }
-}
-
-// Add some subtle visual elements
-.main-content {
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, $ig-red, $ig-yellow, $ig-red);
-  }
-}
-
-// Style tables for better readability
-table {
-  margin: 2rem 0;
-  border-collapse: collapse;
-  width: 100%;
-  
-  th {
-    background: linear-gradient(145deg, $ig-red, $ig-deep-red);
-    color: white;
-    padding: 12px 16px;
-    font-weight: 600;
-    text-align: left;
-  }
-  
-  td {
-    padding: 12px 16px;
-    border-bottom: 1px solid $border-light;
-    
-    &:hover {
-      background-color: $bg-light;
-    }
-  }
-  
-  tr:nth-child(even) {
-    background-color: rgba(248, 249, 250, 0.5);
-  }
-}
-
-// Style blockquotes with union theme
-blockquote {
-  border-left: 4px solid $ig-yellow;
-  background: linear-gradient(145deg, #fff8e1, white);
-  margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
-  font-style: italic;
-  color: $text-dark;
-  border-radius: 0 6px 6px 0;
-}
-
-// Improve list styling with IG Metall typography
-ul, ol {
-  margin: 1rem 0;
-  padding-left: 1.5rem;
-  font-family: $font-meta-regular;
-  
-  li {
-    margin: 0.5rem 0;
-    line-height: 1.75; // Better readability for body text
-    font-size: 16px;
-    
-    strong {
-      color: $ig-red;
-      font-weight: 700; // Meta IGM Bold equivalent
-      font-family: $font-meta-regular;
-    }
-  }
-}
-
-// Add visual hierarchy with colored sections
 .section-highlight {
-  background: linear-gradient(145deg, rgba(227, 5, 27, 0.05), rgba(255, 255, 255, 0.8));
-  border: 1px solid rgba(227, 5, 27, 0.1);
-  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
   padding: 2rem;
   margin: 2rem 0;
+  border-radius: 8px;
   
   &.current-status {
-    border-color: $ig-green;
-    background: linear-gradient(145deg, rgba(91, 153, 69, 0.05), rgba(255, 255, 255, 0.8));
+    border-left: 4px solid #28a745;
   }
   
   &.process-steps {
-    border-color: $ig-blue;
-    background: linear-gradient(145deg, rgba(47, 128, 171, 0.05), rgba(255, 255, 255, 0.8));
+    border-left: 4px solid #17a2b8;
   }
 }
 
-// Enhanced Mobile Responsiveness
+// IG Metall banner styling
+.ig-banner {
+  text-align: center;
+  margin: 2rem 0;
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+}
+
+// Mobile responsiveness
 @media (max-width: 768px) {
-  .page-header {
-    padding: 2rem 1rem;
-  }
-  
-  .project-name {
-    font-size: 1.8rem;
-    line-height: 1.2;
-  }
-  
-  .project-tagline {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-  
-  .main-content {
-    padding: 1rem;
-    margin: 0;
-  }
-  
-  .info-box, .section-highlight {
-    margin: 1rem -1rem;
-    padding: 1.5rem 1rem;
-    border-radius: 0;
-  }
-  
   .page-navigation {
     grid-template-columns: 1fr;
     gap: 1rem;
     margin: 2rem 0;
   }
   
-  .nav-card {
-    padding: 1.5rem;
-    margin: 0 -1rem;
+  .nav-card, .info-box, .section-highlight {
+    margin-left: -1rem;
+    margin-right: -1rem;
     border-radius: 0;
-    border-left: none;
-    border-right: none;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-    line-height: 1.3;
-  }
-  
-  h3 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-}
-
-@media (max-width: 480px) {
-  .page-header {
-    padding: 1.5rem 0.5rem;
-  }
-  
-  .project-name {
-    font-size: 1.6rem;
-  }
-  
-  .main-content {
-    padding: 0.5rem;
-  }
-  
-  .info-box, .section-highlight {
-    padding: 1rem 0.75rem;
-  }
-  
-  .nav-card {
-    padding: 1.25rem 0.75rem;
-  }
-  
-  h1 {
-    font-size: 1.75rem;
-  }
-  
-  h2 {
-    font-size: 1.35rem;
-  }
-}
-
-// Accessibility improvements
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-// Focus styles for accessibility
-a:focus, button:focus, .btn:focus {
-  outline: 3px solid $ig-yellow;
-  outline-offset: 2px;
-}
-
-// Print styles
-@media print {
-  .page-header {
-    background: $ig-red !important;
-    -webkit-print-color-adjust: exact;
-  }
-  
-  a {
-    color: $ig-red !important;
   }
 }
