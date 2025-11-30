@@ -3,6 +3,22 @@
 
 @import "{{ site.theme }}";
 
+// IG Metall Official Brand Colors
+$ig-red: #E3051B;           // Primary Red (RGB: 227, 5, 27)
+$ig-deep-red: #882A30;     // Deep Red (RGB: 136, 42, 48)
+$ig-yellow: #EAB500;       // Yellow (RGB: 234, 181, 0)
+$ig-anthracite: #3C3C3C;   // Anthracite (RGB: 60, 60, 60)
+$ig-blue: #2F80AB;         // Blue (RGB: 47, 128, 171)
+$ig-green: #5B9945;        // Green (RGB: 91, 153, 69)
+$ig-gray: #646464;         // Gray (RGB: 100, 100, 100)
+$ig-light-gray: #DADADA;   // Light Gray (RGB: 218, 218, 218)
+
+// Additional colors for better design
+$text-dark: #333333;       // IG Metall body text color
+$text-light: #666;
+$bg-light: #f8f9fa;
+$border-light: #e9ecef;
+
 // Enhanced Professional Design
 // Navigation cards for better UX
 .page-navigation {
@@ -65,22 +81,6 @@
     color: $text-light;
   }
 }
-
-// IG Metall Official Brand Colors
-$ig-red: #E3051B;           // Primary Red (RGB: 227, 5, 27)
-$ig-deep-red: #882A30;     // Deep Red (RGB: 136, 42, 48)
-$ig-yellow: #EAB500;       // Yellow (RGB: 234, 181, 0)
-$ig-anthracite: #3C3C3C;   // Anthracite (RGB: 60, 60, 60)
-$ig-blue: #2F80AB;         // Blue (RGB: 47, 128, 171)
-$ig-green: #5B9945;        // Green (RGB: 91, 153, 69)
-$ig-gray: #646464;         // Gray (RGB: 100, 100, 100)
-$ig-light-gray: #DADADA;   // Light Gray (RGB: 218, 218, 218)
-
-// Additional colors for better design
-$text-dark: #333333;       // IG Metall body text color
-$text-light: #666;
-$bg-light: #f8f9fa;
-$border-light: #e9ecef;
 
 // IG Metall Official Typography
 // Self-hosted Fira Sans fonts as FF Meta alternatives
