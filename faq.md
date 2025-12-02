@@ -36,9 +36,6 @@ A: The law only requires a majority of those present. Theoretically, even 3 out 
 
 ## Timeline & Notice
 
-**Q: Why was this organized with short notice?**
-A: The law requires only one week's notice. The organizers provided two weeks to give employees more time to prepare.
-
 **Q: Why now and not earlier?**
 A: The SE Works Council was established in early 2023. There's no deadline for establishing a national works council.
 

@@ -1,16 +1,16 @@
-This site provides information about ongoing efforts to establish a works council for employees in Germany. Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
+This site provides information about ongoing efforts to establish a works council for employees in Germany. Other than the existing SE works council, a works council under German law has stronger codetermination rights and must be involved in dismissals.
 
 > **Current Status:** A group of ten employees are in dialogue with the IG Metall Berlin union, as there are clear indications that there is interest in setting up a works council in Germany.
 
 ## What is a Works Council?
+
+Under German law, a works council ("Betriebsrat") represents employee interests and provides a formal channel for workplace participation and protection.
 
 A German works council provides employees with:
 - **Representation** in workplace decisions
 - **Legal protection** in dismissals and workplace conflicts  
 - **Participation rights** in company policies affecting employees
 - **Mediation** between management and employees
-
-This is different from the existing SE (European) Works Council, which focuses on international matters.
 
 ## Information Pages
 
