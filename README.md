@@ -18,6 +18,9 @@ Works councils in Germany are governed by the Works Constitution Act (Betriebsve
 ### [What is a Works Council?](works-council.md)
 Learn about the benefits and role of a German works council in modern tech workplaces.
 
+### [Addressing Employer Concerns](employer-concerns.md)
+Common arguments against works councils and factual responses to employer concerns.
+
 ### [Works Meeting Information](works-meeting.md)
 Learn about the election committee process, meeting agenda, and legal framework for establishing a works council.
 
