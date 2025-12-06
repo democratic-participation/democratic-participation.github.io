@@ -36,7 +36,7 @@ When employees discuss establishing a works council, employers often express con
 
 ### "We already have good employee communication"
 
-**Employer Concern:** Existing channels (open door policies, surveys, town halls) are sufficient.
+**Employer Concern:** Existing channels (all hands, engagement surveys, whistleblowing) are sufficient.
 
 **Reality:**
 - Informal communication lacks legal protection for employee representatives
